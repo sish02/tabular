@@ -1,0 +1,29 @@
+{
+  "HeaderConfig": {
+    "fid": {
+      "label": "__FID__",
+      "type": "html"
+    },
+    "url": {
+      "label": "__URL__",
+      "type": "link",
+      "title": "Download",
+      "iconClass": "fa fa-download"
+    }
+  },
+  "Actions":[
+    {
+      "columnCheck": "notified",
+      "id": "edt-btn",
+      "title": "Edit",
+      "onclick": "deleteEntry",
+      "attributes": {"class": "btn btn-default"}
+    },
+    {
+      "title": "Delete",
+      "id": "del-btn",
+      "onclick": "javascript:void(0);",
+      "attributes": {"data-navact": "callDeleteFunction"}
+    }
+  ]
+}
