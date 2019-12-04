@@ -3,7 +3,7 @@ function TABULAR() {
     this.eleId, this.tableEle, this.parentNode, this.tableHeadNode , this.tableFootNode, this.numOfRows , this.numOfColumns;
     this.headerMap = {};
     this.tableData = [];
-    this.rowLimitOps = [15, 30, 50, 100];
+    this.rowLimitOps = [5, 15, 30, 50, 100];
     this.rowsPerPage = 5; //default
     this.currentPage = 1; //Default - required for pagination
     this.totalPages = this.getTotalNumberOfPages(); // required for pagination
